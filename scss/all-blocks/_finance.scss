@@ -1,0 +1,46 @@
+.finance{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 500px;
+    margin-bottom: 80px;
+    // flex-direction: column;
+    &__box{
+        position: relative;
+        display: flex;
+        width: 30%;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        &::after{
+            position: absolute;
+            content: "";
+            width: 106px;
+            height: 106px;
+            background: url(../Images/Section__4/img__1.png);
+            background-repeat: no-repeat;
+            top: -120px;
+        }
+    }
+    &__box__title{
+        font-family: 'Public sans';
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        text-align: center;
+        color: rgba(54, 83, 107, 1);
+    }
+    &__box__desc{
+        font-family: 'Public sans';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        text-align: center;
+        color: rgba(108, 130, 148, 1);
+    }
+}
