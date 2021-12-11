@@ -241,13 +241,14 @@
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .navbar{
         display: flex;
         justify-content: space-between;
         align-items: center;
         &__logo{
             display: flex;
+            margin-right: 100px;
         }
         &__nav{
             display: none;
@@ -304,7 +305,7 @@
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .main{
         display: flex;
         flex-direction: column-reverse;

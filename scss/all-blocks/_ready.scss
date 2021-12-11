@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 375px) {
     .ready{
         &__left__title{
             font-family: 'DM Serif Display', serif;
@@ -74,6 +74,7 @@
             line-height: 36px;
             letter-spacing: -0.246154px;
             color: #36536B;
+            padding: 0px;
         }
         &__right > form{
             margin-left: -50px;
