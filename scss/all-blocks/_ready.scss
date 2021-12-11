@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .ready{
         width: 100%;
         display: flex;
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
     .ready{
         &__left__title{
             font-family: 'DM Serif Display', serif;
@@ -61,6 +61,22 @@
             letter-spacing: -0.246154px;
             color: #36536B;
             margin-left: 25px;
+        }
+    }
+}
+
+@media screen and (min-width: 375px) {
+    .ready{
+        &__left__title{
+            font-family: 'DM Serif Display', serif;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 36px;
+            letter-spacing: -0.246154px;
+            color: #36536B;
+        }
+        &__right > form{
+            margin-left: -50px;
         }
     }
 }

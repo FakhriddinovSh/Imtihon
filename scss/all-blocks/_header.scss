@@ -131,7 +131,7 @@
 
 // Header media started
 
-@media only screen and (min-width: 375px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .navbar{
         display: flex;
         justify-content: center;
@@ -148,7 +148,7 @@
 }
 
 
-@media only screen and (min-width: 375px) and (max-width: 768px){
+@media only screen and (max-width: 768px){
     .main{
         display: flex;
         width: 100%;
@@ -221,7 +221,7 @@
 }
 
 // Media for mobile
-@media screen and (min-width: 375px) and (max-width: 481px) {
+@media screen and (max-width: 480px) {
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -241,7 +241,28 @@
     }
 }
 
-@media screen and (min-width: 375px) and (max-width: 480px) {
+@media screen and (min-width: 375px) {
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &__logo{
+            display: flex;
+        }
+        &__nav{
+            display: none;
+        }
+        &__btn{
+            display: none;
+        }
+        &__toggle{
+            display: flex;
+            margin-right: -100px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
     .main{
         display: flex;
         flex-direction: column-reverse;
@@ -282,4 +303,50 @@
         }
     }
 }
+
+@media screen and (min-width: 375px) {
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        &__right{
+            margin-top: 0;
+            margin-left: -10px;
+        }
+        &__left__title{
+            font-family: 'DM Serif Display', serif;
+            font-weight: normal;
+            font-size: 32px;
+            line-height: 36px;
+            text-align: center;
+            letter-spacing: -0.246154px;
+            color: #36536B;
+            margin-left: 80px;
+        }
+        &__left__contact{
+            margin-left: -55px;
+            height: 48px;
+            left: 0px;
+            top: 0px;
+            border-radius: 24px;
+        }
+        &__left__contact__btn{
+            height: 48px;
+            width: 440px;
+            left: 0px;
+            top: 0px;
+            border-radius: 24px;
+            margin-left: -0px;
+            margin-top: 16px;
+        }
+        &__left__desc{
+            height: 18px;
+            width: 225px;
+            margin-top: 90px;
+            margin-left: 50px;
+        }
+    }
+}
+
+
+
 
