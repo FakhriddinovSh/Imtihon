@@ -1,20 +1,18 @@
 .about{
-    position: relative;
     margin-top: 75px;
     background-color: #1B262F;
     padding: 0 120px;
     width: cover;
-    height: 478px;
+    height: 615px;
 }
 
 .about__box{
-    flex-wrap: wrap;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     &__left{
-        width: 50%;
+        width: 100vh;
         margin-top: 60px;
     }
     &__left__title{
@@ -54,14 +52,10 @@
     &__right{
         margin-top: 120px;
     }
-
     &__right__img__1{
-        margin-bottom: 50px;
-        text-align: center;
+        justify-content: space-between;
         align-items: center;
-        justify-content: center;
     }
-
     &__right__img__1>a{
         padding-right: 62px;
     }
@@ -69,3 +63,4 @@
         padding-right: 62px;
     }
 }
+

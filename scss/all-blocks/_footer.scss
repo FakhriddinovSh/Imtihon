@@ -5,7 +5,6 @@
     padding: 0 100px;
     margin-top: 96px;
     background: url(../Images/Footer/Footer__background.png);
-    width: 1510px;
     height: 100px;
     &__nav{
         display: flex;
@@ -38,5 +37,71 @@
     }
     &__svg>a{
         padding-right: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer{
+        text-align: left;
+        justify-content: space-between;
+        &__logo{
+            margin-right: -10px;
+            margin-left: -60px;
+        }
+        &__nav{
+            display: flex;
+            list-style: none;
+            margin-right: auto;
+            margin-left: -30px;
+        }
+        &__nav__item{
+            padding-right: 10px;
+        }
+        &__svg >a {
+            &:active{
+                    Path{
+                       Fill:#DA6D97;
+                    }
+            }
+        }
+        &__svg > svg{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 0px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .footer{
+        width: 530px;
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        &__logo{
+            margin-left: 80px;
+        }
+        &__nav{
+            margin-top: -1px;
+            margin-left: 60px;
+            display: block;
+        }
+        &__nav__item{
+            font-family: 'Public sans';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 18px;
+            color: #FBFCFE;
+            padding-top: 31px;
+        }
+        &__svg{
+            display: flex;
+            margin-top: 39px;
+            margin-left: 100px;
+        }
     }
 }
