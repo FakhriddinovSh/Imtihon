@@ -23,7 +23,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
     .ready{
         width: 100%;
         display: flex;
@@ -51,7 +51,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) and (max-width: 480px) {
     .ready{
         &__left__title{
             font-family: 'DM Serif Display', serif;

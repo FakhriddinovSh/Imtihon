@@ -131,7 +131,7 @@
 
 // Header media started
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 375px) and (max-width: 768px){
     .navbar{
         display: flex;
         justify-content: center;
@@ -148,7 +148,7 @@
 }
 
 
-@media only screen and (max-width: 768px){
+@media only screen and (min-width: 375px) and (max-width: 768px){
     .main{
         display: flex;
         width: 100%;
@@ -221,7 +221,7 @@
 }
 
 // Media for mobile
-@media screen and (max-width: 481px) {
+@media screen and (min-width: 375px) and (max-width: 481px) {
     .navbar{
         display: flex;
         justify-content: space-between;
@@ -241,7 +241,7 @@
     }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 375px) and (max-width: 480px) {
     .main{
         display: flex;
         flex-direction: column-reverse;
