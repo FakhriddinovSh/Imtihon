@@ -52,45 +52,8 @@
         justify-items: center;
         align-items: center;
         &__box{
-            margin-left: 75px;
+            margin-left: 40px;
             margin-top: 148px;
-            &::after{
-                position: absolute;
-                content: "";
-                width: 106px;
-                height: 106px;
-                background: url(../Images/Section__4/img__1.png);
-                background-repeat: no-repeat;
-                top: -120px;
-                margin-right: -150px;
-            }
-        }
-        &__box__title{
-            width: 150%;
-            font-family: 'Public sans';
-            font-size: 18px;
-            font-weight: 700;
-            line-height: 25px;
-            letter-spacing: -0.13846154510974884px;
-            text-align: center;
-        }
-        &__box__desc{
-            width: 220%;
-        }
-    }
-}
-
-
-@media screen and (min-width: 375px){
-    .finance{
-        display: block;
-        text-align: center;
-        justify-items: center;
-        align-items: center;
-        &__box{
-            margin-left: 120px;
-            margin-top: 148px;
-
             &::after{
                 position: absolute;
                 content: "";
